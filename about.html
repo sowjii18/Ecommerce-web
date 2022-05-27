@@ -1,112 +1,135 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- icon link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
-
-    <title>Sea</title>
-  </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- icon link -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+      <title>Sea</title>
+   </head>
+   <body data-bs-spy="scroll" data-bs-target=".navbar">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
          <div class="container">
-            <a class="navbar-brand logoname" href="#" style="font-family: Times Bold Italic; font-size:25px;"><i class="bi bi-gem " style="color: silver;"></i> Diamond<span class="text-secondary">Sea</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+         <a class="navbar-brand logoname" href="#" style="font-family: Times Bold Italic; font-size:25px;"><i class="bi bi-gem " style="color: silver;"></i> Diamond<span class="text-secondary">Sea</span></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto">
+         <li class="nav-item">
+            <a class="nav-link  " aria-current="page" href="index.html">Home</a>
+         </li>
+         <li class="nav-item ">
+            <a class="nav-link  active text-warning" href="about.html">About US</a>
+         </li>
+         <li class="nav-item  ">
+            <a class="nav-link  " href="Categories.html">Diamond Jewellery</a>
+         </li>
+         <li class="nav-item ">
+            <a class="nav-link " href="#"><i class="bi bi-bag-heart fs-4"></i></a>
+         </li>
+         <li class="nav-item ">
+         <li class="nav-item ">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <a class="nav-link  " href="#"><i class="bi bi-person-circle " ></i></a>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                     <a class="nav-link  " aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item ">
-                     <a class="nav-link  active text-warning" href="about.html">About US</a>
-                  </li>
-                  <li class="nav-item  ">
-                     <a class="nav-link  " href="earrings.html">Diamond Jewellery</a>
-                  </li>
-                  <li class="nav-item ">
-                     <a class="nav-link " href="#"><i class="bi bi-bag-heart fs-4"></i></a>
-                  </li>
-                  <li class="nav-item ">
-                     <a class="nav-link  " href="#"><i class="bi bi-person-circle fs-4" ></i></a>
-                  </li>
-               </ul>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel" style="margin-left: 200px;" >User</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                     <form>
+                        <div class="mb-3">
+                           <label for="validation03" class="form-label">Mobile</label>
+                           <input type="tel" class="form-control" id="validation03" pattern="[7-9]{1}[0-9]{9}" required>
+                           <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                           </div>
+                     </form>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary col-12">SingIn</button>
+                     </div>
+                  </div>
+               </div>
             </div>
-         </div>
       </nav>
-
-    <!-- navbar section ends-->
-
+      <!-- navbar section ends-->
       <!-- about starts -->
       <div class="container my-3">
       <div class="row ">
-      
-         <div class="col-lg-8 md-12">
-         <h4>Diamond<span class="text-secondary">Sea</span></h4>
-
-      <P>DiamondSea Ltd (DSL) is a Trade Body, formed to serve the interests of the stakeholders in Gem and Jewellery sector.
-
-Incorporated as a Public Limited Company in 2022, it has a widely dispersed shareholding from the trade.
-It was initially formed to import Rough Diamonds for supply to the diamond jewellery manufaturers and later it was given permission as a Nominated Agency to import precious metals for supply to jewellers.
-As a trade body, it works in close coordination with other trade promotion bodies and various ministries of the Central Government for the overall interest of the trade.</P>
-</div>
-<div class="col-lg-2 md-12">
-   <img src="./assets/images/abt1.jpg"  style="height:200px;">
-</div>
-</div>
-</div>
-<!-- hbshx ends -->
-<!-- color starts-->
-<div class="container">
-   <div class="row">
-      <div class="col-lg-6 md-12">
-         <img src="./assets/images/color.jpg">
-      </div>
-      <div class="col-lg-6 md-12">
-         <p class="pt-5">When you’re looking for diamonds to purchase, the diamond color is one aspect of the buying process that you shouldn’t overlook. Diamonds can vary hugely in price based on their color, meaning that picking the right color for your specific needs could help you save a lot of time without affecting the appearance of your jewllery.but,white color is high quality Diamond.  </p>
-      </div>
-   </div>
-   </div>
-<!-- color ends -->
-<!-- quality sarts -->
-<div class="container mt-3">
-   <div class="row">
-      <div class="col-12"><h4 class="text-center">Diamond Clarity</h4>
-         <p><li>Flawless (FL) No inclusions and no blemishes visible under 10x magnification</li>
-            <li>Internally Flawless (IF) No inclusions visible under 10x magnification</li>
-            <li>Very, Very Slightly Included (VVS1 and VVS2) Inclusions so slight they are difficult for a skilled grader to see under 10x magnification</li>
-            <li>Very Slightly Included (VS1 and VS2) Inclusions are observed with effort under 10x magnification, but can be characterized as minor</li>
-           <li> Slightly Included (SI1 and SI2) Inclusions are noticeable under 10x magnification
-            Included (I1, I2, and I3) Inclusions are obvious under 10x magnification which may affect transparency and brilliance</li></p>
-      </div>
-   </div>
-</div>
-<div class="container my-3">
-   <div class="row">
       <div class="col-lg-8 md-12">
-         <h4 class="text-center">Diamond Cut</h4>
-         <p>"Diamonds are renowned for their ability to transmit light and sparkle so intensely. We often think of a diamond’s cut as shape (round, heart, oval, marquise, pear), but what diamond cut actually does mean how well a diamond’s facets interact with light. Precise artistry and workmanship are required to fashion a stone so its proportions, symmetry and polish deliver the magnificent return of light only possible in a diamond."</p>
+      <h4><i class="bi bi-gem " style="color: silver;"></i>Diamond<span class="text-secondary">Sea</span></h4>
+      <P>DiamondSea Ltd (DSL) is a Trade Body, formed to serve the interests of the stakeholders in Gem and Jewellery sector.
+      Incorporated as a Public Limited Company in 2022, it has a widely dispersed shareholding from the trade.
+      It was initially formed to import Rough Diamonds for supply to the diamond jewellery manufaturers and later it was given permission as a Nominated Agency to import precious metals for supply to jewellers.
+      As a trade body, it works in close coordination with other trade promotion bodies and various ministries of the Central Government for the overall interest of the trade.</P>
       </div>
       <div class="col-lg-4 md-12">
-         <img src="./assets/images/diamond-cuts.jpg">
+      <img src="./assets/images/abt1.jpg"  class="img-fluid">
       </div>
-   </div>
-</div>
-
-<!-- quality ends -->
-
+      </div>
+      </div>
+      <!-- hbshx ends -->
+      <!-- color starts-->
+      <div class="container">
+      <div class="row">
+      <div class="col-lg-6 md-12">
+      <img src="./assets/images/abt2.jpg" class="img-fluid">
+      </div>
+      <div class="col-lg-6 md-12">
+      <p class="pt-5">When you’re looking for diamonds to purchase, the diamond color is one aspect of the buying process that you shouldn’t overlook. Diamonds can vary hugely in price based on their color, meaning that picking the right color for your specific needs could help you save a lot of time without affecting the appearance of your jewllery.but,white color is high quality Diamond.  </p>
+      </div>
+      </div>
+      </div>
+      <!-- color ends -->
+      <!-- quality sarts -->
+      <div class="container mt-3">
+      <div class="row">
+      <div class="col-12"><h4 class="text-center">Diamond Clarity</h4>
+      <p><li>Flawless (FL) No inclusions and no blemishes visible under 10x magnification</li>
+      <li>Internally Flawless (IF) No inclusions visible under 10x magnification</li>
+      <li>Very, Very Slightly Included (VVS1 and VVS2) Inclusions so slight they are difficult for a skilled grader to see under 10x magnification</li>
+      <li>Very Slightly Included (VS1 and VS2) Inclusions are observed with effort under 10x magnification, but can be characterized as minor</li>
+      <li> Slightly Included (SI1 and SI2) Inclusions are noticeable under 10x magnification
+      Included (I1, I2, and I3) Inclusions are obvious under 10x magnification which may affect transparency and brilliance</li></p>
+      </div>
+      </div>
+      </div>
+      <div class="container my-3">
+         <div class="row">
+            <div class="col-lg-8 ">
+               <h4 class="text-center">Diamond Cut</h4>
+               <p>"Diamonds are renowned for their ability to transmit light and sparkle so intensely. We often think of a diamond’s cut as shape (round, heart, oval, marquise, pear), but what diamond cut actually does mean how well a diamond’s facets interact with light. Precise artistry and workmanship are required to fashion a stone so its proportions, symmetry and polish deliver the magnificent return of light only possible in a diamond."</p>
+            </div>
+            <div class="col-lg-4 ">
+               <img src="./assets/images/abt3.jpg" class="img-fluid">
+            </div>
+         </div>
+      </div>
+      <div class="container my-3">
+         <div class="row">
+            <div class="col-lg-4 ">
+               <img src="./assets/images/.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-8 ">
+               <h4 class="text-center">Diamond Cent</h4>
+               <p>"Diamonds mass can measured using cent. 100 cents equal to 1 carat, 5 Carats is equal to 1 gram."</p>
+            </div>
+         </div>
+      </div>
+      <!-- quality ends -->
       <!-- about ends -->
-     
-
-         
-
-    <!-- Grid container -->
+      <!-- Grid container -->
       <!-- footer section starts -->
       <footer class="bg-dark text-light">
       <!-- Footer -->
@@ -234,12 +257,7 @@ As a trade body, it works in close coordination with other trade promotion bodie
          </div>
       </footer>
       <!-- footer section ends -->
-
-
-
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    
-  </body>
+      <!-- Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   </body>
 </html>
